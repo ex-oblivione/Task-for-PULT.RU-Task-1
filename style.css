@@ -1,0 +1,44 @@
+body {
+  font-size: 16px;
+  color: #606060;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.img {
+  float: left;
+  width: 300px;
+  margin: 0 15px 10px 0;
+}
+
+.link-btn {
+  background: #c2b280;
+  padding: 1px 3px;
+  border-radius: 3px;
+  color: white;
+}
+
+.link-btn:hover {
+  text-decoration: none;
+}
+
+@media (max-device-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .img {
+    float: none;
+  }
+}
